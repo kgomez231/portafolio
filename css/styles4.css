@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fonfo\ 3.jpg');
+    background-size: 1550px 700px; /* Ancho y alto en píxeles */
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f0f0f0; /* color de fondo del cuadrado */
+    padding: 20px; /* espacio alrededor del texto */
+    border-radius: 10px; /* esquinas redondeadas del cuadrado */
+    z-index: 999; /* asegura que esté encima del contenido */
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Abarca todo el ancho de la pantalla */
+    height: 100%; /* Abarca toda la altura de la pantalla */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+.main {
+    background-color: #f0f0f0; /* color de fondo del cuadrado */
+    padding: 20px; /* espacio alrededor del texto */
+    border-radius: 10px; /* esquinas redondeadas del cuadrado */
+    z-index: 500; /* asegura que esté encima del contenido */
+}
+
+.trabajo {
+    margin: 0; /* elimina el margen predeterminado del encabezado */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
